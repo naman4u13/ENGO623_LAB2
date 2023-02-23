@@ -15,9 +15,12 @@ import com.ENGO623_LAB2.Util.Parser;
 
 public class MainApp {
 
+	// Local gravity at Calgary city
 	private final static double g = 9.80841;
+	// Calgary city latitude
 	private final static double lat = Math.toRadians(51.0447);
-	private final static double OMEGA_E_DOT = Math.toDegrees(7.2921151467E-5);// WGS-84 value of the Earth's rotation rate
+	// WGS-84 value of the Earth's rotation rate
+	private final static double OMEGA_E_DOT = Math.toDegrees(7.2921151467E-5);
 
 	public static void main(String args[]) {
 		try {
